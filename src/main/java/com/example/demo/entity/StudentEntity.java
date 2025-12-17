@@ -5,16 +5,33 @@ import jakarta.persistence.Entity;
 @Entity
 public class StudentEnity{
 
-private int id;
+private Long id;
 private String name;
 private String email;
 private float cgpa;
-private String dept;
 
-
-public void setId(int id){
+public void setId(Long id){
     this.id=id;
 }
-public int getID(){
+public Long getId(){
     return id;
 }
+public void setName(String name){
+    this.name=name;
+}
+public String getName(){
+    return name;
+}
+public void setEmail(String email){
+    this.email=email;
+}
+public String getEmail(){
+    return id;
+}
+public void setCgpa(float cgpa){
+    this.cgpa=cgpa;
+}
+public float getCgpa(){
+    return cgpa;
+}
+
