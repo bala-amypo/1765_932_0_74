@@ -34,8 +34,13 @@ public void setCgpa(float cgpa){
 public float getCgpa(){
     return cgpa;
 }
-public StudentEnity stu(Long id,String name,String email,float cgpa){
+public StudentEnity(Long id,String name,String email,float cgpa){
     this.name=name;
+    this.id=id;
     this.email=email;
     this.cgpa=cgpa;
+    this.id=id;
+}
+public StudentEnity(){
+}
 }
