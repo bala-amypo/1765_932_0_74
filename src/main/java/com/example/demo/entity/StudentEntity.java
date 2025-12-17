@@ -9,7 +9,7 @@ import jakarta.persistence.GenerationType;
 public class StudentEnity{
 
 @Id
-@GeneratedValue=(strategy=GenerationType.IDENTITY)
+@GeneratedValue(strategy=GenerationType.IDENTITY)
 
 private Long id;
 private String name;
