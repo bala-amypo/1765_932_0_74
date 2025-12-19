@@ -29,7 +29,7 @@ public ResponseEntity<StudentEntity> createStudent(@Valid @RequestBody StudentEn
 }
 
 @GetMapping
-public List<Student> getAllStudents() {
+public List<StudentEntity> getAllStudents() {
     return service.getAllStudents();
 }
 
