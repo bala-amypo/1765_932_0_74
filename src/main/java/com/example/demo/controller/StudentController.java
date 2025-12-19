@@ -39,7 +39,7 @@ public Student getStudent(@PathVariable Long id) {
 }
 
 @PutMapping("/students/{id}")
-public Student updateStudent(@PathVariable Long id, @Valid @RequestBody Student student){
+public Student updateStudent(@PathVariable Long id, @Valid @RequestBody StudentEntity student){
     return service.updateStudent(id, student);
 }
 
